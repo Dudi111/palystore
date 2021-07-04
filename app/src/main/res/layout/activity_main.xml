@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvstar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle_1__1_"
+        android:drawableLeft="@drawable/ic_vector__11_"
+        android:drawableRight="@drawable/ic_vector__12_"
+        android:paddingLeft="25dp"
+        android:paddingRight="30dp"/>
+    <TextView
+        android:id="@+id/tvsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvstar"
+        android:background="@drawable/ic_rectangle_2__1_"
+        android:drawableStart="@drawable/ic_carbon_play_outline"
+        android:paddingLeft="200dp"
+        android:gravity="center"
+       />
+    <TextView
+        android:id="@+id/tvbig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_rectangle_3"
+        android:layout_below="@+id/tvsearch"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"/>
+    <TextView
+        android:id="@+id/tvrec1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_rectangle_4"
+        android:layout_below="@+id/tvsearch"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="110dp" />
+    <TextView
+        android:id="@+id/tvrec2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_rectangle_5"
+        android:layout_below="@+id/tvrec1"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="110dp" />
+    <TextView
+        android:id="@+id/tvrec3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_rectangle_6"
+        android:layout_below="@+id/tvrec2"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="110dp" />
+    <TextView
+        android:id="@+id/tvtry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try Now"
+        android:layout_below="@+id/tvbig"
+        android:background="@drawable/ic_rectangle_7"
+        android:gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/tvinstall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Install"
+        android:layout_below="@+id/tvbig"
+        android:background="@drawable/ic_rectangle_7"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:backgroundTint="#079527"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/tvcircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_ellipse_1"
+        android:layout_below="@+id/tvtry"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="55dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_ellipse_1"
+        android:layout_below="@+id/tvtry"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="155dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_ellipse_1"
+        android:layout_below="@+id/tvtry"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="255dp"/>
+    <TextView
+        android:id="@+id/tvfinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_rectangle_9"
+        android:layout_below="@+id/tvcircle"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="75dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_rectangle_10"
+        android:layout_below="@+id/tvfinal"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="45dp"/>
+
+
+
+
+
+
+
+</RelativeLayout>
